@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namaste ! — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background blobs -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <!-- Main container -->
+  <div class="container">
+
+    <!-- Header / Nav -->
+    <header class="nav">
+      <div class="brand">Namaste !</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero glass">
+      <div class="hero-left">
+        <img src="images/profile.jpg" alt="Prince" class="avatar"/>
+      </div>
+      <div class="hero-right">
+        <h1>Hi, I'm <span>Prince</span></h1>
+        <p class="lead">Data Scientist * MYSQL * Python * Databricks * Statistics * Tableau * Power BI * EDA * Machine Learning * ETL Pipeline * Data Science.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="resume.pdf" download><i class="fa fa-download"></i> Download Resume</a>
+          <a class="btn ghost" href="#projects">See Projects</a>
+        </div>
+
+        <div class="contact-small">
+          <a href="mailto:myselfprince40@gmail.com"><i class="fa fa-envelope"></i> myselfprince40@gmail.com</a>
+          <a href="https://wa.me/8102829045" target="_blank"><i class="fa fa-whatsapp"></i> +91 81028 29045</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section glass">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated and detail-oriented Data Science enthusiast with strong skills in Python, SQL, Statistics, Machine Learning, Excel, and Power BI. I enjoy working with data, finding insights, and turning raw information into meaningful solutions. I have hands-on experience working with datasets related to customers, finance, and e-commerce analysis, and I continuously practice objective and technical questions to improve my problem-solving ability.
+        Along with technical skills, I am disciplined, hardworking, and always eager to learn new tools and technologies. My goal is to build a strong career in the field of Data Science, gain real-world experience, and contribute to meaningful projects. Focusing on roles where data, analysis, and computer skills are essential.
+        I believe in consistency, growth, and smart work—qualities that help me improve every day.
+      </p>
+      
+      <section id="Skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h4>Python</h4>
+          <div class="bar"><div style="width:77%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>SQL</h4>
+          <div class="bar"><div style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>Excel</h4>
+          <div class="bar"><div style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>Power BI</h4>
+          <div class="bar"><div style="width:70%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>Machine Learning</h4>
+          <div class="bar"><div style="width:70%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>Statistics</h4>
+          <div class="bar"><div style="width:80%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>EDA</h4>
+          <div class="bar"><div style="width:77%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>ETL Pipeline</h4>
+          <div class="bar"><div style="width:65%"></div></div>
+        </div>
+        <div class="skill">
+          <h4>Databricks</h4>
+          <div class="bar"><div style="width:45%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card glass">
+          <div class="project-media"></div>
+          <h3>Hotel Booking Cancellation Prediction</h3>
+          <img src="images/Hotel.jpg" alt="Hotel Booking Cancellation Prediction" width="300">
+          <p>“The Hotel Booking Cancellations project aims to uncover patterns that lead customers to cancel their reservations. I worked with real-world hotel booking data, performed data preprocessing, handled missing values, and conducted exploratory data analysis. Using Python , I analyzed factors such as lead time, room type, customer history, seasonal trends, and pricing. The project helped generate actionable insights for hotels to reduce cancellations, optimize room availability, and improve forecasting accuracy.” Tools: Python, scikit-learn, pandas.</p>
+          <div class="project-tags">
+            <span>Python</span><span>ML</span><span>sklearn</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn small" href="#" target="_blank">View</a>
+            <a class="btn small ghost" href="#" target="_blank">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <div class="project-media"></div>
+          <h3>Credit Card Fraud Detection</h3>
+          <img src="images/credit.jpg" alt="Credit Card Fraud Detection" width="300">
+          <p>“The Credit Loan Analysis project aims to assess customer financial behavior and predict credit scores using real-world banking data. The dataset included details on income, loans, bank accounts, credit cards, payment delays, and spending patterns. I cleaned and transformed the dataset, handled missing values, and performed feature selection. After exploratory data analysis, I built and evaluated multiple machine learning models to classify customers into Poor, Standard, and Good credit categories. The insights gained can help banks reduce loan defaults, improve risk assessment, and make smarter lending decisions.”End-to-end project: EDA, Feature engineering.</p>
+          <div class="project-tags">
+            <span>Flask</span><span>Python</span><span>EDA</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn small" href="#" target="_blank">View</a>
+            <a class="btn small ghost" href="#" target="_blank">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <div class="project-media"></div>
+          <h3>Power BI Automation Dashboard</h3>
+          <img src="images/Dash.jpg" alt="Power BI Automation Dashboard" width="300">
+          <p>Automated monthly reports and KPI dashboard using Power.</p>
+          <div class="project-tags">
+            <span>Power BI</span><span>Dashboard</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn small" href="#" target="_blank">View</a>
+            <a class="btn small ghost" href="#" target="_blank">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!---EDUCATIONS-->
+    <section id="education" class="section glass">
+      <h2>Educations</h2>
+      <div class="edu-card">
+          <h3>Post Graduation & Engineering</h3>
+          <span class="edu-duration">2024 - 2025</span>
+          <p>GREAT LEARNING, GURURAM</p>
+      </div>
+      <div class="edu-card">
+          <h3>Bachelor of Compouter Applications</h3>
+          <span class="edu-duration">2022 - 2024</span>
+          <p>SKMU UNIVERSITY, JHARKHAND</p>
+      </div>
+      <div class="edu-card">
+          <h3>Intermediate </h3>
+          <span class="edu-duration">2020 - 2022</span>
+          <p>NEW HORIZON SCHOOL(CBSE), BIHAR</p>
+      </div>
+      <div class="edu-card">
+          <h3>High School</h3>
+          <span class="edu-duration">2007 - 2019</span>
+          <p>ST XAVIER'S SCHOOL(ICSE), JHARKHAND</p>
+      </div>
+    </section>
+
+    <!--Certifications  -->
+   <section id="certifications" class="section glass">
+    <h2>Certifications</h2>
+    <div class="certificates-container">
+                <div class="certificate-item">
+            <h3>1. Excel Certificate</h3>
+            <a href="certificates/Excel.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>2. Power BI Certificate</h3>
+            <a href="certificates/PowerBi.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>3. Statistics Certificate</h3>
+            <a href="certificates/Statistics.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>4. Data Science Certificate</h3>
+            <a href="certificates/Datascience.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>5. Python Certificate</h3>
+            <a href="certificates/python.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>6. SQL Certificate</h3>
+            <a href="certificates/sql_basic certificate.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>7. Accenture Certificate</h3>
+            <a href="certificates/Accenture.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>8. Deloitte Certificate</h3>
+            <a href="certificates/Deloitte_completion_certificate.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>9. British Airways Certificate</h3>
+            <a href="certificates/British_completion_certificate.pdf" download class="download-btn">Download</a>
+        </div>
+
+        <div class="certificate-item">
+            <h3>10. Quantium Certificate</h3>
+            <a href="certificates/Quantium_completion_certificate.pdf" download class="download-btn">Download</a>
+        </div>
+
+
+    </div>
+</section>
+      
+    
+
+    <!-- Contact -->
+    <section id="contact" class="section glass">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fa fa-envelope"></i>
+          <h4>Email</h4>
+          <a href="mailto:myselfprince40@gmail.com">myselfprince40@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa fa-phone"></i>
+          <h4>WhatsApp</h4>
+          <a href="https://wa.me/8102829045" target="_blank">+91 81028 29045</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/20princejha/" target="_blank">linkedin.com/in/20princejha/</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <h4>GitHub</h4>
+          <a href="https://github.com/itsprincejha" target="_blank">github.com/itsprincejha</a>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent — replace this with real email handling');">
+        <input required placeholder="Your name" />
+        <input required type="email" placeholder="Your email" />
+        <textarea required placeholder="Your message"></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>© <span id="year"></span> Prince — Built with ❤</div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/20princejha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/itsprincejha" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:myselfprince40@gmail.com"><i class="fa fa-envelope"></i></a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Insert current year
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
